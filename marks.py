@@ -15,9 +15,9 @@ button=driver.find_element(By.CLASS_NAME, "fa-3")
 button.click()
 
 username=driver.find_element(By.NAME, "username")
-username.send_keys("SI20BDS0157MA")
+username.send_keys("")
 password=driver.find_element(By.NAME, "password")
-password.send_keys("sima20BDS0157#")
+password.send_keys("")
 
 
 try:
